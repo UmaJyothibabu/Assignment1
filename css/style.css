@@ -1,0 +1,204 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #343434;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #e7c5ce;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 0;
+  width: 30%;
+  display: inline-block;
+  font-size: 52px;
+  font-weight: 700;
+  color: #50335c;
+  padding-left: 77px;
+  padding-top: 8px;
+  margin: 0;
+}
+h2,
+h3 {
+  font-family: "Caveat", cursive;
+  margin: 0;
+}
+h2 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 30px;
+}
+.nav-bar {
+  float: right;
+  margin-top: 0;
+  padding-top: 24px;
+}
+.nav-bar a {
+  font-family: "Chakra Petch", sans-serif;
+  text-decoration: none;
+  color: #330f0a;
+  padding-right: 63px;
+  font-size: 22px;
+}
+.nav-bar a:hover {
+  color: #870058;
+}
+.home {
+  background-color: #2f3061;
+  color: white;
+  padding-top: 70px;
+}
+.name {
+  display: inline-block;
+  /* float: left; */
+  font-family: "Caveat", cursive;
+}
+.name p {
+  font-size: 20px;
+}
+.mypic {
+  display: inline-block;
+}
+.image {
+  height: min-content;
+  clip-path: circle();
+}
+.about {
+  background-color: #f7fff7;
+  text-align: center;
+  padding: 45px 0;
+  line-height: 2;
+}
+.contentWrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.skill {
+  color: #f1e4e8;
+  padding-left: 60%;
+  background-image: url(../images/skills-logo-clipart-4.png);
+  background-repeat: no-repeat;
+}
+.skill h2,
+.skill h3 {
+  color: #a16882;
+}
+.techSkill {
+  list-style: none;
+}
+.techSkill li::before {
+  position: absolute;
+  content: "\272F";
+  font-size: 17px;
+  margin-left: -20px;
+}
+.nestedli li::before {
+  position: absolute;
+  content: "\27A2";
+  font-size: 17px;
+  margin-left: -20px;
+}
+
+.personalSkill {
+  list-style: none;
+}
+.personalSkill li::before {
+  position: absolute;
+  content: "\272F";
+  font-size: 17px;
+  margin-left: -20px;
+}
+.edu {
+  background-color: #2f344b;
+  background-image: url(../images/graduation.png);
+  background-size: cover;
+  /* opacity: 0.7; */
+}
+.eduContent {
+  color: white;
+  text-align: left;
+  padding-right: 40%;
+
+  font-weight: bold;
+}
+/* .edu h2 {
+  color: #a18e17;
+} */
+.experience {
+  background-color: #a1c6d7;
+}
+.experience h2,
+.experience h3 {
+  color: #a16882;
+}
+.experience ul {
+  list-style: none;
+}
+.innerList li::before {
+  position: absolute;
+  content: "\2743";
+  font-size: 17px;
+  margin-left: -20px;
+}
+.contact {
+  background-color: #563846;
+  color: #e1b28e;
+  padding-left: 30%;
+}
+.contactMe form {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 20px;
+}
+footer {
+  background-color: #f7fff7;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+input {
+  margin-top: 5px;
+  padding: 12px 20px;
+  width: 250px;
+  margin: 8px 0;
+  margin-left: 10px;
+  height: 15px;
+  border-radius: 7px;
+}
+.sub-btn {
+  background-color: #4267b2;
+  border-color: #29487d;
+  color: #fff;
+  height: 37px;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 257px;
+  width: 86px;
+  border-radius: 4px;
+}
+.sub-btn:hover {
+  /* making mouse pointer palm*/
+  background: #033181;
+}
+.contactMe label {
+  padding-right: 4px;
+}
+label[for="phone"] {
+  margin-left: -90px;
+}
+label[for="textarea"] {
+  vertical-align: top;
+  margin-left: -22px;
+}
+footer a {
+  text-decoration: none;
+  color: #000;
+}
